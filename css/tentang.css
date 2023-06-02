@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', Courier, sans-serif;
+    background: #E8FBE5;
+}
+
+.jumbotron {
+    background-image: linear-gradient(99.27deg, #025214 -0.18%, rgba(0, 97, 15, 0.58) 101.25%);
+}
+
+/* navbar */
+
+.navbar-brand {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+.btn-masuk {
+    color: #009922;
+    background: #E8FBE5;
+    border-radius: 0;
+}
+
+.btn-masuk:hover {
+    color: #009922;
+    background: #E8FBE5;
+    border-radius: 0;
+}
+
+.button-auth-desktop {
+    display: none !important;
+}
+
+.button-auth-mobile {
+    display: flex !important;
+}
+
+
+/* banner */
+.tag-fs {
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 64px;
+}
+
+/* tabletcss */
+@media (min-width: 1000px) {
+
+    /* navbar */
+    .button-auth-desktop {
+        display: flex !important;
+    }
+
+    .button-auth-mobile {
+        display: none !important;
+    }
+
+}
+
+
+/* mobile css */
+@media (min-width: 600px) {
+
+
+/* banner */
+.tag-fs {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+}
+
+
+}
