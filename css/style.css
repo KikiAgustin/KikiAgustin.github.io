@@ -1,0 +1,465 @@
+body {
+    font-family: 'Poppins', Courier, sans-serif;
+    background: #E8FBE5;
+}
+
+.jumbotron {
+    background-image: linear-gradient(99.27deg, #025214 -0.18%, rgba(0, 97, 15, 0.58) 101.25%);
+}
+
+/* navbar */
+
+.navbar-brand {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+.btn-masuk {
+    color: #009922;
+    background: #E8FBE5;
+    border-radius: 0;
+}
+
+.btn-masuk:hover {
+    color: #009922;
+    background: #E8FBE5;
+    border-radius: 0;
+}
+
+.button-auth-desktop {
+    display: none !important;
+}
+
+.button-auth-mobile {
+    display: flex !important;
+}
+
+
+/* banner */
+.tag-fs {
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 64px;
+}
+
+.singkat-fs {
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+
+}
+
+.btn-selengkapnya {
+    background: #E8FBE5; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 24px;
+    color: #009922;
+    border-radius: 0;
+
+    width: 180px;
+    height: 50px;  
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 35px;
+}
+
+.btn-selengkapnya:hover {
+    background: #E8FBE5;
+    color: #009922; 
+}
+
+
+/* layanan */
+.layanan-judul {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    color: #009922;
+}
+
+.layanan-deskripsi {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0E0F0E;
+}
+
+.card-row {
+    box-sizing: border-box;
+}
+
+.card-layanan {
+    background: #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.card-layanan:last-child {
+    margin-right: 0;
+}
+
+
+.card-layanan:hover {
+    background: linear-gradient(131.59deg, #025214 0.99%, rgba(0, 97, 15, 0.58) 101.52%);
+  }
+  
+  .card-layanan:hover h5,
+  .card-layanan:hover p {
+    color: #fff;
+  }
+  
+  .card-layanan:hover .layanan-img {
+    background-color: #fff;
+  }
+
+
+.layanan-img {
+    width: 136px ;
+    height: 136px ;
+    background: #009922;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layanan-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.card-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #009922;
+}
+
+/* tentang */
+.tentang {
+    background: linear-gradient(100.4deg, #025214 -0.11%, rgba(0, 97, 15, 0.58) 100%);
+}
+
+.tentang-judul {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
+
+.dot {
+    width: 10px; 
+    height: 10px; 
+    border-radius: 50%; 
+    background-color: #fff;
+    margin-top: -5px;
+    position: absolute;
+}
+
+.dot:hover {
+    cursor: pointer;
+}
+
+/* artikel */
+.artikel-judul {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+}
+
+.artikel-terbit {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+}
+
+.artikel-terbit span {
+    color: #009922;;
+}
+
+.artikel-deskripsi {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.artikel-populer {
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.artikel-populer-tag {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #009922;
+}
+
+.artikel-populer-judul {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #009922;
+}
+
+.artikel-populer-terbit {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+}
+
+.artikel-populer-deskripsi {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+}
+
+/* testimoni */
+
+.testimoni {
+    background-image: url("../assets/img/bg-testimoni.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding-bottom: 100px;
+
+}
+
+.testimoni-judul {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.testimoni-identitas {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+.testimoni-penjelasan {
+    background: #fff;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #080908;
+}
+
+/* footer */
+
+.footer {
+    background: #025214;
+    padding: 20px;
+}
+
+.footer-penjelasan {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+/* Kontak */
+
+.kontak {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
+.kontak-detail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-left: 18px;
+}
+
+.sosial-media {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.sosial-media-link a {
+    margin-right: 15px !important;
+}
+
+/* Pertanyaan */
+.pertanyaan {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    padding-bottom: 70px;
+    margin-top: 50px;
+}
+
+.pertanyaan-judul {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+    color: #025214;
+    margin-bottom: 49px;
+
+}
+
+.pertanyaan-input {
+    border-radius: 0;
+    background: #D0D0D0;
+}
+
+.pertanyaan-button {
+    border-radius: 0;
+    background: #025214;
+    color: #fff;
+}
+
+
+
+/* tabletcss */
+@media (min-width: 1000px) {
+
+    /* navbar */
+    .button-auth-desktop {
+        display: flex !important;
+    }
+
+    .button-auth-mobile {
+        display: none !important;
+    }
+
+}
+
+
+/* mobile css */
+@media (min-width: 600px) {
+
+
+    /* banner */
+.tag-fs {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+}
+
+.singkat-fs {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.btn-selengkapnya {
+    width: 237px;
+    height: 70px;  
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 55px;
+}
+
+/* layanan */
+
+.card-layanan {
+    flex: 1;
+}
+
+/* testimoni */
+.testimoni-judul {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.testimoni-identitas {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+}
+
+.testimoni-penjelasan {
+    background: #fff;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 20px;
+    text-align: center;
+    color: #080908;
+}
+
+
+/* footer */
+.footer-penjelasan {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+/* kontak */
+.kontak-detail {
+    
+    margin-left: 0;
+}
+
+/* pertanyaan */
+
+.pertanyaan {
+    margin-top: 0px;
+}
+
+
+}
+
+

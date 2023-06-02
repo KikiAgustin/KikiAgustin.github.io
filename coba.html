@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Hover Popover</title>
+  <style>
+    .custom-popover {
+      max-width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <a href="#" class="btn btn-primary" id="hoverButton">Hover Me</a>
+  </div>
+
+  <script>
+    var hoverButton = document.getElementById('hoverButton');
+    var popoverInstance = new bootstrap.Popover(hoverButton, {
+      title: 'Dfunstation',
+      content: 'Popover content',
+      placement: 'auto',
+      trigger: 'manual',
+    });
+
+    hoverButton.addEventListener('mouseenter', function () {
+      popoverInstance.show();
+    });
+
+    hoverButton.addEventListener('mouseleave', function () {
+      popoverInstance.hide();
+    });
+  </script>
+</body>
+
+</html>
