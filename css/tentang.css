@@ -1,78 +1,32 @@
-body {
-    font-family: 'Poppins', Courier, sans-serif;
-    background: #E8FBE5;
+
+/* visi misi */
+
+.visi-misi {
+    background: #fff;
+    margin-top: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 20px;
 }
 
-.jumbotron {
-    background-image: linear-gradient(99.27deg, #025214 -0.18%, rgba(0, 97, 15, 0.58) 101.25%);
+.visi-judul {
+    font-weight: 500;
+    font-size: 25px;
 }
 
-/* navbar */
-
-.navbar-brand {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    color: #fff;
-}
-
-.navbar-brand:hover {
-    color: #fff;
-}
-
-.navbar-nav .nav-link {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-  }
-
-.btn-masuk {
-    color: #009922;
-    background: #E8FBE5;
-    border-radius: 0;
-}
-
-.btn-masuk:hover {
-    color: #009922;
-    background: #E8FBE5;
-    border-radius: 0;
-}
-
-.button-auth-desktop {
-    display: none !important;
-}
-
-.button-auth-mobile {
-    display: flex !important;
+.visi-isi {
+    font-weight: 500;
+    font-size: 17px;
 }
 
 
-/* banner */
-.tag-fs {
-    font-family: 'Poppins';
-    font-style: normal;
-    color: #fff;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
-    margin-top: 64px;
-}
+/* lokasi */
 
-/* tabletcss */
-@media (min-width: 1000px) {
-
-    /* navbar */
-    .button-auth-desktop {
-        display: flex !important;
-    }
-
-    .button-auth-mobile {
-        display: none !important;
-    }
-
+.lokasi {
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
 }
 
 
@@ -85,6 +39,27 @@ body {
     font-weight: 700;
     font-size: 64px;
     line-height: 72px;
+}
+
+/* visi misi */
+
+.visi-misi {
+    margin-top: 38px;
+}
+
+.visi-judul {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.visi-isi {
+    font-weight: 500;
+    font-size: 21px;
+}
+
+/* lokasi */
+.lokasi-maps {
+    height: 540px;
 }
 
 

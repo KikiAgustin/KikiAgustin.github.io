@@ -1,0 +1,182 @@
+body {
+    font-family: 'Poppins', Courier, sans-serif;
+    background: #E8FBE5;
+}
+
+.jumbotron {
+    background-image: linear-gradient(99.27deg, #025214 -0.18%, rgba(0, 97, 15, 0.58) 101.25%);
+}
+
+/* navbar */
+
+.navbar-brand {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+.btn-masuk {
+    color: #009922;
+    background: #E8FBE5;
+    border-radius: 0;
+}
+
+.btn-masuk:hover {
+    color: #009922;
+    background: #E8FBE5;
+    border-radius: 0;
+}
+
+.button-auth-desktop {
+    display: none !important;
+}
+
+.button-auth-mobile {
+    display: flex !important;
+}
+
+/* banner */
+.tag-fs {
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 64px;
+}
+
+
+/* footer */
+
+.footer {
+    background: #025214;
+    padding: 20px;
+}
+
+.footer-penjelasan {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+/* Kontak */
+
+.kontak {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
+.kontak-detail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-left: 18px;
+}
+
+.sosial-media {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.sosial-media-link a {
+    margin-right: 15px !important;
+}
+
+/* Pertanyaan */
+.pertanyaan {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    padding-bottom: 70px;
+    margin-top: 50px;
+}
+
+.pertanyaan-judul {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+    color: #025214;
+    margin-bottom: 49px;
+
+}
+
+.pertanyaan-input {
+    border-radius: 0;
+    background: #D0D0D0;
+}
+
+.pertanyaan-button {
+    border-radius: 0;
+    background: #025214;
+    color: #fff;
+}
+
+
+/* tabletcss */
+@media (min-width: 1000px) {
+
+    /* navbar */
+    .button-auth-desktop {
+        display: flex !important;
+    }
+
+    .button-auth-mobile {
+        display: none !important;
+    }
+
+}
+
+
+
+/* mobile css */
+@media (min-width: 600px) {
+
+    /* footer */
+.footer-penjelasan {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+/* kontak */
+.kontak-detail {
+    
+    margin-left: 0;
+}
+
+/* pertanyaan */
+
+.pertanyaan {
+    margin-top: 0px;
+}
+
+
+}
