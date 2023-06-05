@@ -1,0 +1,66 @@
+
+/* penjelasan */
+.penjelasan {
+    margin-top: 63px;
+}
+
+.card-konsul {
+    border-radius: 10px;
+    padding: 30px;
+    height: 550px;
+    margin-bottom: 15px;
+}
+
+.card-satu {
+    background: linear-gradient(180deg, #E8FBE5 0%, #009922 100%);
+    
+}
+
+.card-dua {
+    background: linear-gradient(180deg, #E8FBE5 0%, #009999 100%);
+}
+
+.card-tiga {
+    background: linear-gradient(180deg, #E8FBE5 0%, #006B99 100%);
+}
+
+.card-empat {
+    background: linear-gradient(180deg, #E8FBE5 0%, #D3567C 100%);
+}
+
+.card-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 58px;
+    margin-bottom: 36px;
+}
+
+.card-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.btn-janji {
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+
+/* mobile css */
+@media (min-width: 600px) {
+
+    /* penjelasan */
+    .card-konsul {
+        height: 550px;
+        padding: 20px;
+    }
+
+    
+
+}
