@@ -1,7 +1,11 @@
+body {
+    background: linear-gradient(100.4deg, #025214 -0.11%, rgba(0, 97, 15, 0.58) 100%);
+}
 
 /* penjelasan */
 .penjelasan {
-    margin-top: 63px;
+    padding-top: 63px;
+    background: #E8FBE5;
 }
 
 .card-konsul {
@@ -52,70 +56,41 @@
 }
 
 /* daftar konsultant */
-.daftar-konsultan {
-    background: linear-gradient(100.4deg, #025214 -0.11%, rgba(0, 97, 15, 0.58) 100%);
-    padding-bottom: 50px;
-}
 
-.konsultan-judul {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
+* {
+    box-sizing: border-box;
+  }
+
+  .slider {
+      width: 80%;
+      margin: 50px auto;
+  }
+
+  .slick-slide {
+    margin: 0px 20px;
+  }
+
+
+  .slick-prev:before,
+  .slick-next:before {
     color: #fff;
-    margin-top: 20px;
-}
-
-.konsultan-card {
-    background: linear-gradient(117.73deg, #E8FBE5 0.07%, rgba(232, 251, 229, 0) 101.85%);
-    border-radius: 6px;
-    padding: 5px;
-    height: 340px;
-    margin-right: 20px;
-}
-
-.konsultan-c {
-    flex: 1;
-}
+  }
 
 
-.konsultan-nama {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    color: #025214;
-}
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+    color: #fff;
+  }
+  
+  .slick-active {
+    opacity: .5;
+  }
 
-.konsultan-gelar {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: #025214;
-}
+  .slick-current {
+    opacity: 1;
+  }
 
-.konsultan-kategori {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    color: #025214;
-    margin-bottom: 30px;
-}
-
-.konsultan-deskripsi {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    color: #025214;
-}
-
-.konsultan-image {
-    position: absolute;
-    top: 160px;
-    
-}
-
-.carousel-indicators {
-    margin-top: 50px !important;
-}
 
 
 /* mobile css */

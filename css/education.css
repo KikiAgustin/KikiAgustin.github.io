@@ -1,4 +1,8 @@
 
+body {
+    background: linear-gradient(100.4deg, #025214 -0.11%, rgba(0, 97, 15, 0.58) 100%);
+}
+/* form pencarian */
 .form-pencarian {
     background: url(../assets/img/bd-education.png);
     background-size: cover;
@@ -13,6 +17,42 @@
 .form-cari {
     padding-top: 100px;
 }
+
+/* daftar konsultant */
+
+* {
+    box-sizing: border-box;
+  }
+
+  .slider {
+      width: 80%;
+      margin: 50px auto;
+  }
+
+  .slick-slide {
+    margin: 0px 20px;
+  }
+
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: #fff;
+  }
+
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+    color: #fff;
+  }
+  
+  .slick-active {
+    opacity: .5;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
 
 /* mobile css */
 @media (min-width: 600px) {
