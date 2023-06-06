@@ -1,0 +1,27 @@
+
+.form-pencarian {
+    background: url(../assets/img/bd-education.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.bg-form {
+    background: #D9D9D9;
+}
+
+.form-cari {
+    padding-top: 100px;
+}
+
+/* mobile css */
+@media (min-width: 600px) {
+
+    .form-pencarian {
+        height: 700px;
+    }
+
+    .form-cari {
+        padding-top: 297px;
+    }
+}
