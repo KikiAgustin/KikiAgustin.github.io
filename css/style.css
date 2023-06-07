@@ -257,6 +257,18 @@ body {
     flex: 1;
 }
 
+.konsultan-gelar {
+    font-size: 16px;
+}
+
+.konsultan-kategori {
+    font-size: 16px;
+}
+
+.konsultan-deskripsi {
+    font-size: 13px;
+}
+
 .konsultan-image {
     position: absolute;
     top: 110px;

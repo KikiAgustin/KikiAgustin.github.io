@@ -1,13 +1,14 @@
 
 body {
-    background: linear-gradient(100.4deg, #025214 -0.11%, rgba(0, 97, 15, 0.58) 100%);
+    background: #E8FBE5;
+    box-sizing: border-box;
 }
+
 /* form pencarian */
 .form-pencarian {
     background: url(../assets/img/bd-education.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
 }
 
 .bg-form {
@@ -54,11 +55,44 @@ body {
     opacity: 1;
   }
 
+
+  /* content terbaru */
+
+  .content-terbaru {
+    margin-top: 118px;
+  }
+
+  .content-jd {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #025214;
+  }
+
+  .card-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #025214;
+    margin-top: 15px;
+  }
+
+  .card-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #025214;
+    text-align: justify;
+  }
+
+
 /* mobile css */
 @media (min-width: 600px) {
 
     .form-pencarian {
-        height: 700px;
+        height: 1380px;
     }
 
     .form-cari {
