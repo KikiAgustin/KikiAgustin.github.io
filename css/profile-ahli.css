@@ -57,21 +57,47 @@ ul, li {
     color: #000;
 }
 
+.profile-mobile {
+    display: block;
+}
+
+.profile-dekstop {
+    display: none;
+}
+
 
 
 /* mobile css */
-@media (min-width: 758px) {
+@media (min-width: 800px) {
+
+     /* profile */
+     .penanganan-destop {
+        padding-left: 40px;
+    }
+
+    .profile-nama {
+        font-size: 50px;
+        line-height: 50px;
+    }
 
     .profile-foto {
-        margin-top: -60px;
+        margin-top: -90px;
      }
+
+     .profile-mobile {
+        display: none;
+    }
+
+    .profile-dekstop {
+        display: block;
+    }
     
     
     }
 
     
 /* mobile css */
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
 
     /* profile */
     .penanganan-destop {
@@ -85,6 +111,14 @@ ul, li {
 
     .profile-foto {
        margin-top: -230px;
+    }
+
+    .profile-mobile {
+        display: none;
+    }
+
+    .profile-dekstop {
+        display: block;
     }
 
 }
