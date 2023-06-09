@@ -199,6 +199,12 @@ body {
     top: 100px;
 }
 
+/* login */
+
+.modal-title {
+    margin-top: -50px;
+}
+
 
 /* tabletcss */
 @media (min-width: 1000px) {
