@@ -66,6 +66,22 @@ ul, li {
 }
 
 
+/* login */
+
+  .input-group-icon .password-icon {
+    position: absolute;
+    top: 37%;
+    right: 25px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  .button-submit button {
+    background:#025214;
+  }
+
+
+
 
 /* mobile css */
 @media (min-width: 800px) {

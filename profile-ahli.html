@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 
     <!-- style -->
     <link rel="stylesheet" href="css/style.css">
@@ -203,13 +206,25 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header" style="border-bottom: none;">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="btn-close z-3" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <h1 class="modal-title fs-5 text-center" id="staticBackdropLabel">Yu, Masuk Ke Akunmu Dulu!</h1>
         <form action="">
           <div class="mb-3 mt-4">
             <input type="email" class="form-control" id="email" name="email" placeholder="Masukan Email">
+          </div>
+          <div class="mb-4">
+            <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+            <div class="input-group-icon mb-2">
+              <i class="password-icon fas fa-eye-slash"></i>
+            </div>
+            <a for="password" class="form-label text-decoration-none text-black fw-bold ">Lupa Password?</a>
+          </div>
+          <div class="button-submit text-center">
+            <button type="submit" class="btn btn-success mb-2">Masuk Sekarang</button>
+            <br>
+            <span class="text-black">Kamu belum terdaftar? <a href="#" class="text-black fw-bold text-decoration-none">Daftar Disini</a></span>
           </div>
         </form>
       </div>
