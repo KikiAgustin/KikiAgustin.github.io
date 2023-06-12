@@ -70,6 +70,10 @@ body {
     color: #025214;
   }
 
+  .card:hover {
+    cursor: pointer;
+  }
+
   .card-title {
     font-style: normal;
     font-weight: 700;

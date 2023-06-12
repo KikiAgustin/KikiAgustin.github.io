@@ -66,6 +66,7 @@
 
 .card-layanan:hover {
     background: linear-gradient(131.59deg, #025214 0.99%, rgba(0, 97, 15, 0.58) 101.52%);
+    cursor: pointer;
   }
   
   .card-layanan:hover h5,
