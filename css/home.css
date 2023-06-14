@@ -194,6 +194,14 @@
     color: #000000;
 }
 
+#artikel-home {
+    cursor: pointer;
+}
+
+.populer-artikel {
+    cursor: pointer;
+}
+
 /* testimoni */
 
 .testimoni {
