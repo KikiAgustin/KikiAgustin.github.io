@@ -1,64 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Form Password</title>
-  <!-- CSS Bootstrap -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
   <style>
-    .input-group-icon {
-      position: relative;
+    .input-group-text {
+      width: 80px;
+      text-align: center;
     }
-
-    .input-group-icon .password-icon {
-      position: absolute;
-      top: 50%;
-      right: 10px;
-      transform: translateY(-50%);
-      cursor: pointer;
+    .quantity-input {
+      width: 100px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .btn-group {
+      display: flex;
+      align-items: center;
+    }
+    .btn-group .btn {
+      flex: 1;
+      text-align: center;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <label for="password" class="form-label">Password</label>
-        <div class="input-group mb-3">
-          <input type="password" class="form-control" id="password" placeholder="Masukkan password">
-          <div class="input-group-icon">
-            <i class="password-icon fas fa-eye-slash"></i>
-          </div>
-        </div>
+    <div class="input-group">
+      <span class="input-group-text">Jumlah:</span>
+      <div class="btn-group">
+        <button class="btn btn-secondary" type="button" id="decrement">-</button>
+        <input type="text" class="form-control quantity-input" id="quantity" value="0" readonly>
+        <button class="btn btn-secondary" type="button" id="increment">+</button>
       </div>
     </div>
   </div>
 
-  <!-- JavaScript Bootstrap -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
-  <!-- Font Awesome -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
   <script>
-    const passwordInput = document.getElementById('password');
-    const passwordIcon = document.querySelector('.password-icon');
+    document.getElementById("increment").addEventListener("click", function() {
+      var quantityInput = document.getElementById("quantity");
+      var quantity = parseInt(quantityInput.value);
+      quantityInput.value = quantity + 1;
+    });
 
-    passwordIcon.addEventListener('click', function () {
-    const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
-    const newInput = document.createElement('input');
-    newInput.setAttribute('type', type);
-    newInput.setAttribute('class', 'form-control');
-    newInput.setAttribute('id', 'password');
-    newInput.setAttribute('placeholder', 'Masukkan password');
-    passwordInput.parentNode.replaceChild(newInput, passwordInput);
-    passwordIcon.classList.toggle('fa-eye-slash');
-    newInput.focus();
-    passwordInput.remove();
-    passwordInput = newInput;
-});
-
+    document.getElementById("decrement").addEventListener("click", function() {
+      var quantityInput = document.getElementById("quantity");
+      var quantity = parseInt(quantityInput.value);
+      if (quantity > 0) {
+        quantityInput.value = quantity - 1;
+      }
+    });
   </script>
 </body>
 </html>
