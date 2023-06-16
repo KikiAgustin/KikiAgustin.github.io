@@ -31,9 +31,14 @@
     padding: 30px;
 }
 
+.tiket-jenis {
+    margin-bottom: 5px;
+}
+
 .tiket-berakhir {
     color: #009922;
-    margin-top: 5px !important;
+    margin-top: -23px !important;
+    font-size: 13px;
 }
 
 
@@ -41,4 +46,68 @@
     font-weight: 500;
     font-size: 24px;
     color: #000;
+    margin-left: 17px;
+}
+
+.card-informasi {
+    background: #FFFFFF;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.tiket-sold {
+    color: red;
+    font-size: 14px;
+}
+
+.tiket-penyelenggara {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.tiket-tempat {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #000;
+}
+
+.tiket-belumbeli {
+    font-weight: 500;
+}
+
+.btn-belitiket {
+    background: #00761A;
+    color: #fff;
+}
+
+.btn-belitiket:hover {
+    background: #044412;
+    color: #fff;
+}
+
+
+/* mobile css */
+@media (min-width: 600px) {
+
+    .tiket-berakhir {
+        margin-top: 5px !important;
+        font-size: 15px;
+    }
+
+    .tiket-jenis {
+        margin-bottom: 20px;
+    }
+
+    .tiket-sold {
+        font-size: 15px;
+    }
+
+    .item-jumlah {
+        font-weight: 500;
+        font-size: 24px;
+        margin-left: 15px;
+    }
+    
 }
