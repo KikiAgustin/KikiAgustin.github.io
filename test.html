@@ -1,55 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh Tabs Bootstrap</title>
+
+  <!-- Mengimpor file CSS Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+
+  <!-- Mengimpor file JavaScript Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+
   <style>
-    .input-group-text {
-      width: 80px;
-      text-align: center;
-    }
-    .quantity-input {
-      width: 100px;
-      text-align: center;
-      font-size: 18px;
-      font-weight: bold;
-    }
-    .btn-group {
-      display: flex;
-      align-items: center;
-    }
-    .btn-group .btn {
-      flex: 1;
-      text-align: center;
+    /* Menyembunyikan elemen menu terkait konten ke-6 */
+    #tab6-tab {
+      display: none;
     }
   </style>
 </head>
+
 <body>
-  <div class="container">
-    <div class="input-group">
-      <span class="input-group-text">Jumlah:</span>
-      <div class="btn-group">
-        <button class="btn btn-secondary" type="button" id="decrement">-</button>
-        <input type="text" class="form-control quantity-input" id="quantity" value="0" readonly>
-        <button class="btn btn-secondary" type="button" id="increment">+</button>
+  <div class="container mt-4">
+    <!-- Menampilkan menu tab -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" id="tab1-tab" data-bs-toggle="tab" href="#tab1">Tab 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="tab2-tab" data-bs-toggle="tab" href="#tab2">Tab 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3">Tab 3</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="tab4-tab" data-bs-toggle="tab" href="#tab4">Tab 4</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="tab5-tab" data-bs-toggle="tab" href="#tab5">Tab 5</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="tab6-tab" data-bs-toggle="tab" href="#tab6">Tab 6</a>
+      </li>
+    </ul>
+
+    <!-- Menampilkan konten tab -->
+    <div class="tab-content mt-2">
+      <div class="tab-pane fade" id="tab1">
+        <h4>Isi Konten Tab 1</h4>
+        <p>Ini adalah konten dari tab 1.</p>
+      </div>
+      <div class="tab-pane fade" id="tab2">
+        <h4>Isi Konten Tab 2</h4>
+        <p>Ini adalah konten dari tab 2.</p>
+      </div>
+      <div class="tab-pane fade" id="tab3">
+        <h4>Isi Konten Tab 3</h4>
+        <p>Ini adalah konten dari tab 3.</p>
+      </div>
+      <div class="tab-pane fade" id="tab4">
+        <h4>Isi Konten Tab 4</h4>
+        <p>Ini adalah konten dari tab 4.</p>
+      </div>
+      <div class="tab-pane fade" id="tab5">
+        <h4>Isi Konten Tab 5</h4>
+        <p>Ini adalah konten dari tab 5.</p>
+      </div>
+      <div class="tab-pane fade" id="tab6">
+        <h4>Isi Konten Tab 6</h4>
+        <p>Ini adalah konten dari tab 6.</p>
       </div>
     </div>
   </div>
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+  <!-- Skrip JavaScript untuk mengatur urutan tampilan tab -->
   <script>
-    document.getElementById("increment").addEventListener("click", function() {
-      var quantityInput = document.getElementById("quantity");
-      var quantity = parseInt(quantityInput.value);
-      quantityInput.value = quantity + 1;
+    // Mendapatkan elemen menu tab
+    var navTabs = document.querySelectorAll('.nav-tabs .nav-link');
+
+    // Mendapatkan elemen konten tab
+    var tabContent = document.querySelectorAll('.tab-content .tab-pane');
+
+    // Menghapus kelas 'active' dari semua menu tab
+    navTabs.forEach(function (tab) {
+      tab.classList.remove('active');
     });
 
-    document.getElementById("decrement").addEventListener("click", function() {
-      var quantityInput = document.getElementById("quantity");
-      var quantity = parseInt(quantityInput.value);
-      if (quantity > 0) {
-        quantityInput.value = quantity - 1;
-      }
+    // Menghapus kelas 'show active' dari semua konten tab
+    tabContent.forEach(function (tab) {
+      tab.classList.remove('show', 'active');
     });
+
+    // Menambahkan kelas 'active' ke menu tab konten ke-6
+    navTabs[5].classList.add('active');
+
+    // Menambahkan kelas 'show active' ke konten tab konten ke-6
+    tabContent[5].classList.add('show', 'active');
   </script>
 </body>
+
 </html>

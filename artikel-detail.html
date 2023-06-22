@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halaman Home</title>
+    <link rel="stylesheet" href="bootsrap/css/bootstrap.min.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/artikel-detail.css">
+  </head>
+  <body>
+
+    <!-- navbar dan banner -->
+    <section class="jumbotron"> 
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/logo.png" alt="Logo Dfunstation">
+            d’Fun Station
+          </a>
+          
+          <!-- Tombol toggle untuk menu pada perangkat mobile -->
+          <button class="navbar-toggler bg-light border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <!-- Menu -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold " aria-current="page" href="index.html">BERANDA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="konsultasi.html">KONSULTASI</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ARTIKEL</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">TENTANG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">KONTAK</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ASSESMENT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="faq.html">F.A.Q</a>
+                </li>
+                <li class="nav-item button-auth-mobile">
+                  <input class="form-control rounded-0 border-0 me-2 mb-2"  style="background: #D9D9D9; width: 180px; " type="search" placeholder="Cari disini" aria-label="Search">
+                </li>
+                <li class="nav-item button-auth-mobile">
+                  <a href="#" class=" btn btn-masuk " data-bs-toggle="modal" data-bs-target="#staticBackdrop" >MASUK</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Tombol Login dan Registrasi -->
+            <div  class="d-flex navbar-nav button-auth-desktop ">
+              <li class="nav-item">
+                <input class="form-control rounded-0 border-0 me-2"  style="background: #D9D9D9; width: 180px; " type="search" placeholder="Cari disini" aria-label="Search">
+              </li>
+              <li class="nav-item">
+                <a href="#" class=" btn btn-masuk " data-bs-toggle="modal" data-bs-target="#staticBackdrop" >MASUK</a>
+              </li>
+            </div>
+
+        </div>
+      </nav>
+    <!-- navbar -->
+  
+      <!-- banner -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-12">
+            <h1 class="tag-fs">
+              BLOG
+              <br>
+              DAN
+              <br>
+              ARTIKEL
+            </h1>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img class="img-fluid" src="assets/img/gambar-artikel.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- isi content -->
+    <section class="isi-content pb-5">
+      <div class="container">
+        <nav class="nav nav-pills nav-fill bg-white">
+          <a class="nav-link text-black rounded-0  " id="semua-artikel-tab" data-bs-toggle="tab" data-bs-target="#semua-artikel" type="button" role="tab" aria-controls="semua-artikel" aria-selected="true" aria-current="page" href="#">Semua Artikel</a>
+          <a class="nav-link text-black rounded-0" id="anak-tab" data-bs-toggle="tab" data-bs-target="#anak" type="button" role="tab" aria-controls="anak" aria-selected="false">Anak</a>
+          <a class="nav-link text-black rounded-0" id="remaja-tab" data-bs-toggle="tab" data-bs-target="#remaja" type="button" role="tab" aria-controls="remaja" aria-selected="false">Remaja</a>
+          <a class="nav-link text-black rounded-0" id="dewasa-tab" data-bs-toggle="tab" data-bs-target="#dewasa" type="button" role="tab" aria-controls="dewasa" aria-selected="false">Dewasa</a>
+          <a class="nav-link text-black rounded-0" id="umum-tab" data-bs-toggle="tab" data-bs-target="#umum" type="button" role="tab" aria-controls="umum" aria-selected="false">Umum</a>
+          <a class="nav-link d-none" id="tab3-tab" data-bs-toggle="tab" href="#semua artikel">Tab 3</a>
+        </nav>
+        <div class="tab-content " id="myTabContent">
+          
+          <div class="container mt-2 tab-pane fade isi-pane   " id="semua-artikel" role="tabpanel" aria-labelledby="semua-artikel-tab">
+            <div class="row" >
+              <div class="col-lg-7 col-md-7 col-ms-12 ">
+                  <div >
+                    isi kontent
+                  </div>
+              </div>
+              <div class="col-lg-5 col-md-5 col-sm-12 ">
+                <h2>Semua Artikel</h2>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-2 tab-pane fade isi-pane" id="anak" role="tabpanel" aria-labelledby="anak-tab">
+            <div class="row " >
+              <div class="col-lg-7 col-md-7 col-ms-12 ">
+                <div >
+                  <h1>Tab 2 Content</h1>
+                <p>This is the content of Tab 2.</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <h2>Semua Artikel</h2>
+            </div>
+            </div>
+          </div>
+          <div class="container mt-2 tab-pane fade isi-pane" id="remaja" role="tabpanel" aria-labelledby="remaja-tab">
+            <div class="row" >
+              <div class="col-lg-7 col-md-7 col-ms-12 ">
+                <div >
+                  <h1>Tab 3 Content</h1>
+                <p>This is the content of Tab 2.</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <h2>Semua Artikel</h2>
+            </div>
+            </div>
+          </div>
+          <div class="container mt-2 tab-pane fade isi-pane" id="dewasa" role="tabpanel" aria-labelledby="dewasa-tab">
+            <div class="row " >
+              <div class="col-lg-7 col-md-7 col-ms-12 ">
+                <div >
+                  <h1>Tab 4 Content</h1>
+                <p>This is the content of Tab 2.</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <h2>Semua Artikel</h2>
+            </div>
+            </div>
+          </div>
+          <div class="container mt-2 tab-pane fade isi-pane" id="umum" role="tabpanel" aria-labelledby="umum-tab">
+            <div class="row" >
+              <div class="col-lg-7 col-md-7 col-ms-12 ">
+                <div >
+                  <h1>Tab 5 Content</h1>
+                <p>This is the content of Tab 2.</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <h2>Semua Artikel</h2>
+            </div>
+            </div>
+          </div>
+          <div class="container mt-2 tab-pane fade isi-pane" id="semua-artikel" >
+            <div class="row" >
+              <div class="col-lg-7 col-md-7 col-ms-12 ">
+                <div >
+                  <h1>semua artikel/h1>
+                <p>isi konten semua artikel</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <h2>Semua Artikel</h2>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-7 col-sm-12">
+            <h1 class="footer-penjelasan">
+              Butuh Konsultasi...?
+              <br>
+              Silahkan Kontak kami
+              <br>
+              Kami Siap Membantu
+            </h1>
+            <p class="kontak">Kontak</p>
+            <div class="row">
+              <div class="col-1">
+                <img src="assets/img/icon-alamat.png" class=" kontak-icon" alt="Dfunstation">
+              </div>
+              <div class="col-10 kontak-detail ">
+                Ruko Istana Pasteur Regency CRA 51
+                <br>
+                Gunung Batu - Kota Bandung
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1">
+                <img src="assets/img/icon-telepon.png" class=" kontak-icon" alt="Dfunstation">
+              </div>
+              <div class="col-10 kontak-detail ">
+                +62 859 5600 0087
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1">
+                <img src="assets/img/icon-email.png" class=" kontak-icon" alt="Dfunstation">
+              </div>
+              <div class="col-10 kontak-detail ">
+                d.funstation@gmail.com
+              </div>
+            </div>
+            <p class="sosial-media">Sosial Media</p>
+            <div class="d-flek sosial-media-link">
+              <a href="#" >
+                <img src="assets/img/icon-instagram.png" class=" kontak-icon" alt="Dfunstation">
+              </a>
+              <a href="#">
+                <img src="assets/img/icon-tiktok.png" class=" kontak-icon" alt="Dfunstation">
+              </a>
+              <a href="#">
+                <img src="assets/img/icon-facebook.png" class=" kontak-icon" alt="Dfunstation">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-12">
+            <div class="pertanyaan">
+              <h3 class="pertanyaan-judul">Ada Pertanyaan</h3>
+  
+              <form action="">
+                <div class="mb-4">
+                  <input type="email" class="form-control pertanyaan-input " id="email" placeholder="Masukan email anda disini">
+                </div>
+                <div class="mb-4">
+                  <input type="text" class="form-control pertanyaan-input" id="email" placeholder="Pertanyaan anda">
+                </div>
+                <div class="d-grid">
+                  <button class="btn pertanyaan-button">Kirim</button>
+                </div>
+              </form>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Skrip JavaScript untuk mengatur urutan tampilan tab -->
+  <script>
+    // Mendapatkan elemen menu tab
+    var navTabs = document.querySelectorAll('.nav-link');
+
+    // Mendapatkan elemen konten tab
+    var tabContent = document.querySelectorAll('.tab-content .tab-pane');
+
+    // Menghapus kelas 'active' dari semua menu tab
+    navTabs.forEach(function (tab) {
+      tab.classList.remove('active');
+    });
+
+    // Menghapus kelas 'show active' dari semua konten tab
+    tabContent.forEach(function (tab) {
+      tab.classList.remove('show', 'active');
+    });
+
+    // Menambahkan kelas 'active' ke menu tab yang diinginkan
+    navTabs[2].classList.add('active');
+
+    // Menambahkan kelas 'show active' ke konten tab yang diinginkan
+    tabContent[2].classList.add('show', 'active');
+  </script>
+
+
+  <!-- <script src="bootsrap/js/bootstrap.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header" style="border-bottom: none;">
+        <button type="button" class="btn-close z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h1 class="modal-title fs-5 text-center" id="staticBackdropLabel">Yu, Masuk Ke Akunmu Dulu!</h1>
+        <form action="">
+          <div class="mb-3 mt-4">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Masukan Email">
+          </div>
+          <div class="mb-4">
+            <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+            <div class="input-group-icon mb-2">
+              <i class="password-icon fas fa-eye-slash"></i>
+            </div>
+            <a href="lupapassword.html" for="password" class="form-label text-decoration-none text-black fw-bold ">Lupa Password?</a>
+          </div>
+          <div class="button-submit text-center">
+            <button type="submit" class="btn btn-success mb-2">Masuk Sekarang</button>
+            <br>
+            <span class="text-black">Kamu belum terdaftar? <a href="daftar-akun.html" class="text-black fw-bold text-decoration-none">Daftar Disini</a></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>
