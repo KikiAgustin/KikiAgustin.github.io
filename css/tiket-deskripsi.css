@@ -87,6 +87,27 @@
     color: #fff;
 }
 
+.bagikan-judul {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: #000;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
 
 /* mobile css */
 @media (min-width: 600px) {
