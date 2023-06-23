@@ -92,6 +92,29 @@
     color: #645E5E;
 }
 
+/* semua artikel */
+
+.card {
+    cursor: pointer;
+}
+.allartikel-kategori {
+    color: #000;
+    font-size: 12px;
+}
+
+.card-title {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.allartikel-penulis {
+    color: #000;
+    font-size: 12px
+}
+
 /* mobile css */
 @media (min-width: 600px) {
     .artikelpopuler {
