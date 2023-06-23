@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
 
 
     <!-- style -->
@@ -103,196 +104,238 @@
     <!-- isi content -->
     <section class="isi-content pb-5">
       <div class="container">
-        <nav class="nav nav-pills nav-fill bg-white">
-          <a class="nav-link text-black rounded-0  " id="semua-artikel-tab" data-bs-toggle="tab" data-bs-target="#semua-artikel" type="button" role="tab" aria-controls="semua-artikel" aria-selected="true" aria-current="page" href="#">Semua Artikel</a>
-          <a class="nav-link text-black rounded-0" id="anak-tab" data-bs-toggle="tab" data-bs-target="#anak" type="button" role="tab" aria-controls="anak" aria-selected="false">Anak</a>
-          <a class="nav-link text-black rounded-0" id="remaja-tab" data-bs-toggle="tab" data-bs-target="#remaja" type="button" role="tab" aria-controls="remaja" aria-selected="false">Remaja</a>
-          <a class="nav-link text-black rounded-0" id="dewasa-tab" data-bs-toggle="tab" data-bs-target="#dewasa" type="button" role="tab" aria-controls="dewasa" aria-selected="false">Dewasa</a>
-          <a class="nav-link text-black rounded-0" id="umum-tab" data-bs-toggle="tab" data-bs-target="#umum" type="button" role="tab" aria-controls="umum" aria-selected="false">Umum</a>
-          <a class="nav-link d-none" id="tab3-tab" data-bs-toggle="tab" href="#semua artikel">Tab 3</a>
-        </nav>
-        <div class="tab-content " id="myTabContent">
-          
-          <div class="container mt-2 tab-pane fade isi-pane   " id="semua-artikel" role="tabpanel" aria-labelledby="semua-artikel-tab">
-            <div class="row" >
-              <div class="col-lg-7 col-md-7 col-ms-12 ">
-                  <div >
-                    isi kontent
+        <!-- Menampilkan menu tab -->
+        <ul class="nav  nav-fill">
+          <li class="nav-item item-tabs">
+            <a class="nav-link active" id="tab1-tab" data-bs-toggle="tab" href="#tab1">Semua Artikel</a>
+          </li>
+          <li class="nav-item item-tabs">
+            <a class="nav-link" id="tab2-tab" data-bs-toggle="tab" href="#tab2">Anak</a>
+          </li>
+          <li class="nav-item item-tabs">
+            <a class="nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3">Remaja</a>
+          </li>
+          <li class="nav-item item-tabs">
+            <a class="nav-link" id="tab4-tab" data-bs-toggle="tab" href="#tab4">Dewasa</a>
+          </li>
+          <li class="nav-item item-tabs">
+            <a class="nav-link" id="tab5-tab" data-bs-toggle="tab" href="#tab5">Umum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-none" id="tab6-tab" data-bs-toggle="tab" href="#tab6">Tab 6</a>
+          </li>
+        </ul>
+
+        <!-- Menampilkan konten tab -->
+        <div class="row mt-2">
+          <div class="col-lg-8 col-md-8 col-sm-12">
+            <div class="tab-content ">
+              <div class="tab-pane fade" id="tab1">
+                <h4>Isi Konten Tab 1</h4>
+                <p>Ini adalah konten dari tab 1.</p>
+              </div>
+              <div class="tab-pane fade" id="tab2">
+                <h4>Isi Konten Tab 2</h4>
+                <p>Ini adalah konten dari tab 2.</p>
+              </div>
+              <div class="tab-pane fade" id="tab3">
+                <h4>Isi Konten Tab 3</h4>
+                <p>Ini adalah konten dari tab 3.</p>
+              </div>
+              <div class="tab-pane fade" id="tab4">
+                <h4>Isi Konten Tab 4</h4>
+                <p>Ini adalah konten dari tab 4.</p>
+              </div>
+              <div class="tab-pane fade" id="tab5">
+                <h4>Isi Konten Tab 5</h4>
+                <p>Ini adalah konten dari tab 5.</p>
+              </div>
+              <div class="tab-pane fade" id="tab6">
+                <div class="isi-content">
+                  <img src="assets/img/cover-artikel-1.png" alt="Dfunstation" class="img-fluid">
+                  <div class="artikel-sumber-gambar">
+                    image : Illustration by google
                   </div>
+                  <div class="artikel-judul">
+                    Pentingnya Regulasi Emosi Pada Anak dan Cara Mengajarkannya
+                  </div>
+                  <div class="artikel-informasi">
+                    Oleh Denia Rahmayanthi, S.Psi., M.Psi., Psikolog | Kamis, 15 Juni 2023 11:36 WIB | 74 Views
+                    <br>
+                    Disunting Oleh : Rani Maharani
+                  </div>
+                  <div class="artikel-isi">
+                    Berbicara mengenai emosi, mungkin banyak dari orang tua yang mengalami masa-masa sulit terutama dalam menghadapi dan mengontrol emosi anak. Emosi merupakan suatu hal yang kompleks dan berhubungan dengan bagaimana fisik dan psikologis seseorang bekerja Secara fisik, emosi berhubungan dengan bagian otak yang disebut dengan pre-frontal cortex. Pada bagian ini, otak mengatur bagaimana regulasi emosi dan dorongan (impuls). Area ini belum sepenuhnya berkembang pada anak dan akan mencapai kematangan yang optimal ketika seseorang berusia 25 tahun. Hal ini menjelaskan mengapa anak dan remaja cenderung sulit untuk melakukan regulasi emosi dan cenderung impulsif. Regulasi emosi sendiri merupakan kemampuan seseorang untuk dapat memahami dan mengelola perasaan serta perilaku yang sesuai dengan tuntutan situasi yang ditemui.
+
+                    Regulasi emosi ini penting bagi anak karena membantu mereka untuk:
+                    Fokus dan memperhatikan saat belajar.
+                    Mengendalikan dorongan sosial yang tidak pantas, seperti memukul saat mainan direbut.
+                    Berbagi dan mengekspresikan emosi dengan tepat saat bersosialisasi dengan teman sebaya.
+                    Memikirkan konsekuensi sebelum mengambil keputusan.
+                    Mengelola stres dan menenangkan diri saat menghadapi situasi yang tidak nyaman.
+
+                    Anak-anak pada tahap perkembangan awal seringkali menghadapi kesulitan dalam mengelola emosi, terutama dalam situasi yang tidak menyenangkan. Namun, seiring waktu dan pengalaman belajar, mereka bisa mengembangkan keterampilan tersebut secara mandiri. Sebagai orang tua, penting bagi kita untuk mendukung anak-anak dalam belajar mengelola emosi mereka.
+
+                    Strategi untuk Membantu Anak Mengelola Emosi:
+                    Memberikan Label pada Perasaan AnakMisalnya “sedih” “marah” dan lain-lain. Dorong anak untuk menyebutkan emosi yang dirasakan dan jelaskan bagaimana sensasi di tubuh mereka seperti perubahan suhu tubuh atau detak jantung yang mereka rasakan. Ini membantu anak untuk dapat meningkatkan kesadaran emosionalnya.
+                    Mendukung Anak dalam Mengatasi Situasi EmosionalOrang tua dapat membantu anak untuk mengidentifikasi situasi yang memicu mereka untuk merasakan emosi tersebut dan bantu anak mengatasi emosi yang dirasakan tanpa menghindari situasinya. Berikan dukungan kepada anak untuk mengembangkan cara yang efektif untuk mengatasi situasi tersebut.
+                    Melakukan Kegiatan Fisik TerarahBiasanya anak akan terbantu karena dengan berkegiatan fisik ia dapat mengungkapkan emosinya. Misalnya melakukan olahraga ataupun kegiatan fisik lainnya.
+                    Perhatikan Kebutuhan AnakMisalnya saat anak butuh waktu untuk membicarakan perasaan/ emosinya, orang tua dapat membantu anak menenangkan diri seperti menarik napas atau minum segelas air. Hindari memaksa anak untuk membicarakan perasaannya secara terpaksa. Tunggu sampai anak siap untuk berbicara.
+                    Jadilah Model Atau Contoh Bagi Anak Tunjukkan pada mereka bagaimana cara menyelesaikan permasalahan yang membuat frustrasi atau menantang tanpa menjadi kesal. Berikan juga apresiasi pada anak ketika ia merespon secara efektif dan tepat di situasi yang menantang secara emosional.
+
+                    Nah, itulah penjelasan mengenai pentingnya regulasi emosi pada anak. Jika anak menunjukkan gejala tantrum dan sulit ditenangkan yang tidak sesuai dengan usianya, menunjukkan perilaku sulit dikontrol sehingga membahayakan diri dan orang lain, menghindari orang disekitarnya dan memiliki kesulitan untuk berinteraksi dengan lingkungan maka orang tua disarankan untuk berkonsultasi ke ahli misalnya psikolog untuk mendapatkan penanganan yang sesuai. Buat janji dengan mudah dan cepat dengan psikolog d’Fun Station sekarang!
+                    Referensi:
+                  </div>
+                  <div class="artikel-tags mt-4">
+                    <div>Tags</div>
+                    <span>#Anak</span>
+                    <span>#Parenting</span>
+                    <span>#Tips dan trick</span>
+                  </div>
+                  <div class="artikel-bagikan">
+                    <div class="bagikan-judul mb-3">Bagikan Artikel</div>
+                      <div class="sosmed">
+                        <a class="social-icon" onclick="shareOnTwitter()" ><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" onclick="shareOnFacebook()" ><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" onclick="copyUrlToClipboard()" ><i class="fas fa-link"></i></a>
+                      </div>
+                  </div>
+                  <div class="artikel-komentar mt-3">
+                    <div class="judul">Berikan Komentar</div>
+                    <div class="row">
+                      <div class="col-1">
+                        <div class="profile">
+                          <img src="assets/img/icon-user.png" alt="Dfunstation" class="img-fluid">
+                        </div>
+                      </div>
+                      <div class="col-11">
+                        <form action="">
+                          <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Komentar anda..." >
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon1">Kirim</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="artikel-komentar-populer mt-3">
+                    <div class="judul mb-2">Komentar popoler</div>
+                    <div class="row">
+                      <div class="col-1">
+                        <div class="profile">
+                          <img src="assets/img/icon-user.png" alt="Dfunstation" class="img-fluid">
+                        </div>
+                      </div>
+                      <div class="col-11">
+                        <form action="">
+                          <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Komentar anda..." >
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-lg-5 col-md-5 col-sm-12 ">
-                <h2>Semua Artikel</h2>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="artikelpopuler">
+              <div class="judul">Artikel Populer</div>
+              <div class="isi-konten">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="assets/img/cover-artikel-1.png" alt="Dfunstation" class="img-fluid img-thumbnail">
+                    </div>
+                    <div class="col-8">
+                      <div class="populer-judul">Sikap yang Harus Dikembangkan pada Remaja</div>
+                      <div class="populer-view">34.510 Views</div>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="assets/img/cover-artikel-1.png" alt="Dfunstation" class="img-fluid img-thumbnail">
+                    </div>
+                    <div class="col-8">
+                      <div class="populer-judul">Sikap yang Harus Dikembangkan pada Remaja</div>
+                      <div class="populer-view">34.510 Views</div>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="assets/img/cover-artikel-1.png" alt="Dfunstation" class="img-fluid img-thumbnail">
+                    </div>
+                    <div class="col-8">
+                      <div class="populer-judul">Sikap yang Harus Dikembangkan pada Remaja</div>
+                      <div class="populer-view">34.510 Views</div>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="assets/img/cover-artikel-1.png" alt="Dfunstation" class="img-fluid img-thumbnail">
+                    </div>
+                    <div class="col-8">
+                      <div class="populer-judul">Sikap yang Harus Dikembangkan pada Remaja</div>
+                      <div class="populer-view">34.510 Views</div>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="assets/img/cover-artikel-1.png" alt="Dfunstation" class="img-fluid img-thumbnail">
+                    </div>
+                    <div class="col-8">
+                      <div class="populer-judul">Sikap yang Harus Dikembangkan pada Remaja</div>
+                      <div class="populer-view">34.510 Views</div>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="assets/img/cover-artikel-1.png" alt="Dfunstation" class="img-fluid img-thumbnail">
+                    </div>
+                    <div class="col-8">
+                      <div class="populer-judul">Sikap yang Harus Dikembangkan pada Remaja</div>
+                      <div class="populer-view">34.510 Views</div>
+                    </div>
+                  </div>
+                  <hr class="line">
               </div>
-            </div>
-          </div>
-          <div class="container mt-2 tab-pane fade isi-pane" id="anak" role="tabpanel" aria-labelledby="anak-tab">
-            <div class="row " >
-              <div class="col-lg-7 col-md-7 col-ms-12 ">
-                <div >
-                  <h1>Tab 2 Content</h1>
-                <p>This is the content of Tab 2.</p>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-5 col-sm-12">
-              <h2>Semua Artikel</h2>
-            </div>
-            </div>
-          </div>
-          <div class="container mt-2 tab-pane fade isi-pane" id="remaja" role="tabpanel" aria-labelledby="remaja-tab">
-            <div class="row" >
-              <div class="col-lg-7 col-md-7 col-ms-12 ">
-                <div >
-                  <h1>Tab 3 Content</h1>
-                <p>This is the content of Tab 2.</p>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-5 col-sm-12">
-              <h2>Semua Artikel</h2>
-            </div>
-            </div>
-          </div>
-          <div class="container mt-2 tab-pane fade isi-pane" id="dewasa" role="tabpanel" aria-labelledby="dewasa-tab">
-            <div class="row " >
-              <div class="col-lg-7 col-md-7 col-ms-12 ">
-                <div >
-                  <h1>Tab 4 Content</h1>
-                <p>This is the content of Tab 2.</p>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-5 col-sm-12">
-              <h2>Semua Artikel</h2>
-            </div>
-            </div>
-          </div>
-          <div class="container mt-2 tab-pane fade isi-pane" id="umum" role="tabpanel" aria-labelledby="umum-tab">
-            <div class="row" >
-              <div class="col-lg-7 col-md-7 col-ms-12 ">
-                <div >
-                  <h1>Tab 5 Content</h1>
-                <p>This is the content of Tab 2.</p>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-5 col-sm-12">
-              <h2>Semua Artikel</h2>
-            </div>
-            </div>
-          </div>
-          <div class="container mt-2 tab-pane fade isi-pane" id="semua-artikel" >
-            <div class="row" >
-              <div class="col-lg-7 col-md-7 col-ms-12 ">
-                <div >
-                  <h1>semua artikel/h1>
-                <p>isi konten semua artikel</p>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-5 col-sm-12">
-              <h2>Semua Artikel</h2>
-            </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- footer -->
-    <section class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7 col-md-7 col-sm-12">
-            <h1 class="footer-penjelasan">
-              Butuh Konsultasi...?
-              <br>
-              Silahkan Kontak kami
-              <br>
-              Kami Siap Membantu
-            </h1>
-            <p class="kontak">Kontak</p>
-            <div class="row">
-              <div class="col-1">
-                <img src="assets/img/icon-alamat.png" class=" kontak-icon" alt="Dfunstation">
-              </div>
-              <div class="col-10 kontak-detail ">
-                Ruko Istana Pasteur Regency CRA 51
-                <br>
-                Gunung Batu - Kota Bandung
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-1">
-                <img src="assets/img/icon-telepon.png" class=" kontak-icon" alt="Dfunstation">
-              </div>
-              <div class="col-10 kontak-detail ">
-                +62 859 5600 0087
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-1">
-                <img src="assets/img/icon-email.png" class=" kontak-icon" alt="Dfunstation">
-              </div>
-              <div class="col-10 kontak-detail ">
-                d.funstation@gmail.com
-              </div>
-            </div>
-            <p class="sosial-media">Sosial Media</p>
-            <div class="d-flek sosial-media-link">
-              <a href="#" >
-                <img src="assets/img/icon-instagram.png" class=" kontak-icon" alt="Dfunstation">
-              </a>
-              <a href="#">
-                <img src="assets/img/icon-tiktok.png" class=" kontak-icon" alt="Dfunstation">
-              </a>
-              <a href="#">
-                <img src="assets/img/icon-facebook.png" class=" kontak-icon" alt="Dfunstation">
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-5 col-md-5 col-sm-12">
-            <div class="pertanyaan">
-              <h3 class="pertanyaan-judul">Ada Pertanyaan</h3>
-  
-              <form action="">
-                <div class="mb-4">
-                  <input type="email" class="form-control pertanyaan-input " id="email" placeholder="Masukan email anda disini">
-                </div>
-                <div class="mb-4">
-                  <input type="text" class="form-control pertanyaan-input" id="email" placeholder="Pertanyaan anda">
-                </div>
-                <div class="d-grid">
-                  <button class="btn pertanyaan-button">Kirim</button>
-                </div>
-              </form>
-  
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
 
 
-    <!-- Skrip JavaScript untuk mengatur urutan tampilan tab -->
-  <script>
-    // Mendapatkan elemen menu tab
-    var navTabs = document.querySelectorAll('.nav-link');
+    <script>
+      // Mendapatkan elemen menu tab
+      var navTabs = document.querySelectorAll('.nav-fill .nav-link');
+  
+      // Mendapatkan elemen konten tab
+      var tabContent = document.querySelectorAll('.tab-content .tab-pane');
+  
+      // Menghapus kelas 'active' dari semua menu tab
+      navTabs.forEach(function (tab) {
+        tab.classList.remove('active');
+      });
+  
+      // Menghapus kelas 'show active' dari semua konten tab
+      tabContent.forEach(function (tab) {
+        tab.classList.remove('show', 'active');
+      });
+  
+      // Menambahkan kelas 'active' ke menu tab konten ke-6
+      navTabs[5].classList.add('active');
+  
+      // Menambahkan kelas 'show active' ke konten tab konten ke-6
+      tabContent[5].classList.add('show', 'active');
+    </script>
 
-    // Mendapatkan elemen konten tab
-    var tabContent = document.querySelectorAll('.tab-content .tab-pane');
-
-    // Menghapus kelas 'active' dari semua menu tab
-    navTabs.forEach(function (tab) {
-      tab.classList.remove('active');
-    });
-
-    // Menghapus kelas 'show active' dari semua konten tab
-    tabContent.forEach(function (tab) {
-      tab.classList.remove('show', 'active');
-    });
-
-    // Menambahkan kelas 'active' ke menu tab yang diinginkan
-    navTabs[2].classList.add('active');
-
-    // Menambahkan kelas 'show active' ke konten tab yang diinginkan
-    tabContent[2].classList.add('show', 'active');
-  </script>
 
 
   <!-- <script src="bootsrap/js/bootstrap.min.js"></script> -->
