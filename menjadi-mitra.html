@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dfunstation | Tentang</title>
+    <link rel="stylesheet" href="bootsrap/css/bootstrap.min.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/daftar-akun.css">
+  </head>
+  <body>
+
+    <!-- navbar dan banner -->
+    <section class="jumbotron"> 
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/logo.png" alt="Logo Dfunstation">
+              d’Fun Station
+            </a>
+            
+            <!-- Tombol toggle untuk menu pada perangkat mobile -->
+            <button class="navbar-toggler bg-light border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Menu -->
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold " aria-current="page" href="index.html">BERANDA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="konsultasi.html">KONSULTASI</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ARTIKEL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">TENTANG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">KONTAK</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ASSESMENT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="faq.html">F.A.Q</a>
+                  </li>
+                  <li class="nav-item button-auth-mobile">
+                    <input class="form-control rounded-0 border-0 me-2 mb-2"  style="background: #D9D9D9; width: 180px; " type="search" placeholder="Cari disini" aria-label="Search">
+                  </li>
+                  <li class="nav-item button-auth-mobile">
+                    <a href="#" class=" btn btn-masuk " data-bs-toggle="modal" data-bs-target="#staticBackdrop" >MASUK</a>
+                  </li>
+                </ul>
+              </div>
+  
+              <!-- Tombol Login dan Registrasi -->
+              <div  class="d-flex navbar-nav button-auth-desktop ">
+                <li class="nav-item">
+                  <input class="form-control rounded-0 border-0 me-2"  style="background: #D9D9D9; width: 180px; " type="search" placeholder="Cari disini" aria-label="Search">
+                </li>
+                <li class="nav-item">
+                  <a href="#" class=" btn btn-masuk " data-bs-toggle="modal" data-bs-target="#staticBackdrop" >MASUK</a>
+                </li>
+              </div>
+  
+          </div>
+        </nav>
+       <!-- navbar -->
+    
+        <!-- banner -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+              <h1 class="tag-fs">
+                BERGABUNG
+                <br>
+                MENJADI
+                <br>
+                MITRA
+              </h1>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <img class="img-fluid" src="assets/img/menjadi-mitra.png" alt="">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- form daftar -->
+    <section>
+        <div class="container  daftar-akun-card">
+            <h1 class="daftar-akun-judul text-center">Bergabung dengan d’Fun Station, Yuk!</h1>
+            <h4 class="daftar-akun-des text-center">Masukan informasi diri anda melalui form yang disediakan dibawah ini untuk bergabung ke d'Fun Station - Sahabat Keluarga</h4>
+
+            <!-- form -->
+            <form action="">
+                
+                <div class="mb-3">
+                    <label for="namalengkap" class="form-label text-start fw-bold">Nama Lengkap</label>
+                    <input type="text" class="form-control" name="namalengkap" id="namalengkap" placeholder="Masukan Nama Lengkap">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label text-start fw-bold">Alamat Email</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Masukan Email">
+                </div>
+                <div class="mb-3">
+                    <label for="handphone" class="form-label text-start fw-bold">Nomor Handphone</label>
+                    <input type="text" class="form-control" name="handphone" id="handphone" placeholder="Masukan Nomor Handphone">
+                </div>
+                <div class="mb-3">
+                    <label for="judulpesan" class="form-label text-start fw-bold">Judul Pesan</label>
+                    <input type="text" class="form-control" name="judulpesan" id="judulpesan" placeholder="Masukan Nama Judul Pesan">
+                </div>
+                <div class="mb-3">
+                    <label for="isipesan" class="form-label">Isi Pesan</label>
+                    <textarea class="form-control" id="isipesan" name="isipesan" rows="3"></textarea>
+                  </div>
+                
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" value="" name="menyetujui" id="menyetujui" >
+                    <label class="form-check-label" for="menyetujui">
+                        saya bukan robot
+                    </label>
+                </div>
+                <div class="button-daftar ">
+                    <button class="btn">Kirim</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <h1 class="footer-penjelasan">
+              Butuh Konsultasi...?
+              <br>
+              Silahkan Kontak kami
+              <br>
+              Kami Siap Membantu
+            </h1>
+            <p class="kontak">Kontak</p>
+            <div class="row">
+              <div class="col-1">
+                <img src="assets/img/icon-alamat.png" class=" kontak-icon" alt="Dfunstation">
+              </div>
+              <div class="col-10 kontak-detail ">
+                Ruko Istana Pasteur Regency CRA 51
+                <br>
+                Gunung Batu - Kota Bandung
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1">
+                <img src="assets/img/icon-telepon.png" class=" kontak-icon" alt="Dfunstation">
+              </div>
+              <div class="col-10 kontak-detail ">
+                +62 859 5600 0087
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1">
+                <img src="assets/img/icon-email.png" class=" kontak-icon" alt="Dfunstation">
+              </div>
+              <div class="col-10 kontak-detail ">
+                d.funstation@gmail.com
+              </div>
+            </div>
+            <p class="sosial-media">Sosial Media</p>
+            <div class="d-flek sosial-media-link">
+              <a href="#" >
+                <img src="assets/img/icon-instagram.png" class=" kontak-icon" alt="Dfunstation">
+              </a>
+              <a href="#">
+                <img src="assets/img/icon-tiktok.png" class=" kontak-icon" alt="Dfunstation">
+              </a>
+              <a href="#">
+                <img src="assets/img/icon-facebook.png" class=" kontak-icon" alt="Dfunstation">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 card-footer-menu">
+            <a class="footer-menu" href="">Artikel / Blog</a>
+            <a class="footer-menu" href="">Event</a>
+            <a class="footer-menu" href="">Tiket</a>
+            <a class="footer-menu" href="">Galeri Foto</a>
+            <a class="footer-menu" href="">Self Assesment</a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 card-footer-menu">
+            <a class="footer-menu" href="">F.A.Q</a>
+            <a class="footer-menu" href="">Syarat dan Ketentuan</a>
+            <a class="footer-menu" href="">Kebijakan Privasi</a>
+            <a class="footer-menu" href="">Menjadi Mitra</a>
+            <a class="footer-menu" href="">Promo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+
+  <!-- <script src="bootsrap/js/bootstrap.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+   <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header" style="border-bottom: none;">
+        <button type="button" class="btn-close z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h1 class="modal-title fs-5 text-center" id="staticBackdropLabel">Yu, Masuk Ke Akunmu Dulu!</h1>
+        <form action="">
+          <div class="mb-3 mt-4">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Masukan Email">
+          </div>
+          <div class="mb-4">
+            <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+            <div class="input-group-icon mb-2">
+              <i class="password-icon fas fa-eye-slash"></i>
+            </div>
+            <a href="lupapassword.html" for="password" class="form-label text-decoration-none text-black fw-bold ">Lupa Password?</a>
+          </div>
+          <div class="button-submit text-center">
+            <button type="submit" class="btn btn-success mb-2">Masuk Sekarang</button>
+            <br>
+            <span class="text-black">Kamu belum terdaftar? <a href="daftar-akun.html" class="text-black fw-bold text-decoration-none">Daftar Disini</a></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>

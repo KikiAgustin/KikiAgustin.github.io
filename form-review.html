@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dfunstation | Tentang</title>
+    <link rel="stylesheet" href="bootsrap/css/bootstrap.min.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/daftar-akun.css">
+  </head>
+  <body>
+
+    <!-- navbar dan banner -->
+    <section class="jumbotron"> 
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/logo.png" alt="Logo Dfunstation">
+              d’Fun Station
+            </a>
+            
+            <!-- Tombol toggle untuk menu pada perangkat mobile -->
+            <button class="navbar-toggler bg-light border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Menu -->
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold " aria-current="page" href="index.html">BERANDA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="konsultasi.html">KONSULTASI</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ARTIKEL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">TENTANG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">KONTAK</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ASSESMENT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="faq.html">F.A.Q</a>
+                  </li>
+                  <li class="nav-item button-auth-mobile">
+                    <input class="form-control rounded-0 border-0 me-2 mb-2"  style="background: #D9D9D9; width: 180px; " type="search" placeholder="Cari disini" aria-label="Search">
+                  </li>
+                  <li class="nav-item button-auth-mobile">
+                    <a href="#" class=" btn btn-masuk " data-bs-toggle="modal" data-bs-target="#staticBackdrop" >MASUK</a>
+                  </li>
+                </ul>
+              </div>
+  
+              <!-- Tombol Login dan Registrasi -->
+              <div  class="d-flex navbar-nav button-auth-desktop ">
+                <li class="nav-item">
+                  <input class="form-control rounded-0 border-0 me-2"  style="background: #D9D9D9; width: 180px; " type="search" placeholder="Cari disini" aria-label="Search">
+                </li>
+                <li class="nav-item">
+                  <a href="#" class=" btn btn-masuk " data-bs-toggle="modal" data-bs-target="#staticBackdrop" >MASUK</a>
+                </li>
+              </div>
+  
+          </div>
+        </nav>
+       <!-- navbar -->
+    
+        <!-- banner -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+              <h1 class="tag-fs">
+                SAHABAT
+                <br>
+                KELUARGA
+                <br>
+                ANDA
+              </h1>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <img class="img-fluid" src="assets/img/keluarga-tentang.png" alt="">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- form daftar -->
+    <section>
+        <div class="container  daftar-akun-card">
+            <h1 class="daftar-akun-judul text-center">Form Evaluasi Layanan d'Fun Station</h1>
+            <h4 class="daftar-akun-des text-center">Dalam rangka pengembangan layanan d'Fun Station, kami memerlukan hasil pengisian formulir evaluasi ini untuk digunakan sebagai bahan evaluasi agar layanan yang diberikan di d'Fun Station bisa menjadi lebih baik dikemudian hari.</h4>
+
+            <!-- form -->
+            <form action="">
+                
+                <div class="mb-3">
+                    <label for="namaklien" class="form-label text-start text-black ">Nama Klien (bisa inisial)</label>
+                    <input type="text" class="form-control" name="namaklien" id="namaklien" placeholder="Masukan Nama Anda">
+                </div>
+                <div class="mb-3">
+                    <label  class="form-label text-start text-black ">Layanan yang diambil</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="layanan" id="layanan-1" value="Psikologi">
+                        <label class="form-check-label" for="layanan-1">
+                          Psikologi
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="layanan" id="layanan-2" value="Psikologi">
+                        <label class="form-check-label" for="layanan-2">
+                          Psikologi
+                        </label>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label text-start text-black ">Fasilitas/ tempat (meliputi kebersihan dan kelengkapan sarana)</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="fasilitas" id="vasilitas-1" value="Kurang Nyaman">
+                        <label class="form-check-label" for="vasilitas-1">
+                            Kurang Nyaman
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="fasilitas" id="fasilitas-2" value="Cukup Nyaman">
+                        <label class="form-check-label" for="fasilitas-2">
+                            Cukup Nyaman
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="fasilitas" id="fasilitas-3" value="Nyaman">
+                        <label class="form-check-label" for="fasilitas-3">
+                            Nyaman
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="fasilitas" id="fasilitas-4" value="Sangat Nyaman">
+                        <label class="form-check-label" for="fasilitas-4">
+                            Sangat Nyaman
+                        </label>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label text-start text-black ">Keramahan, pelayanan, dan penjelasan resepsionis</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="keramahan" id="keramahan-1" value="Kurang Baik">
+                        <label class="form-check-label" for="keramahan-1">
+                            Kurang Baik
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="keramahan" id="keramahan-2" value="Cukup Baik">
+                        <label class="form-check-label" for="keramahan-2">
+                            Cukup Baik
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="keramahan" id="keramahan-3" value="Baik">
+                        <label class="form-check-label" for="keramahan-3">
+                            Baik
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="keramahan" id="keramahan-4" value="Sangat Baik">
+                        <label class="form-check-label" for="keramahan-4">
+                            Sangat Baik
+                        </label>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label text-start text-black ">Pemberian layanan konseling oleh psikolog/konsultan hukum</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="layanan-conselling" id="layanan-conselling-1" value="Kurang Membantu">
+                        <label class="form-check-label" for="layanan-conselling-1">
+                            Kurang Membantu
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="layanan-conselling" id="layanan-conselling-2" value="Cukup Membantu">
+                        <label class="form-check-label" for="layanan-conselling-2">
+                            Cukup Membantu
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="layanan-conselling" id="layanan-conselling-3" value="Membantu">
+                        <label class="form-check-label" for="layanan-conselling-3">
+                            Membantu
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="layanan-conselling" id="layanan-conselling-4" value="Sangat Membantu">
+                        <label class="form-check-label" for="layanan-conselling-4">
+                            Sangat Membantu
+                        </label>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="namakonsultan" class="form-label text-start text-black ">Nama Konsultan</label>
+                    <select class="form-select" aria-label="Default select example" name="namakonsultan">
+                        <option selected>Pilih Konsultan</option>
+                        <option value="1">Ibu 1</option>
+                        <option value="2">Ibu 2</option>
+                        <option value="3">Ibu 3</option>
+                      </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label text-start text-black ">Sikap psikolog/ konsultan hukum</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sikap-konsultan" id="sikap-konsultan-1" value="Kurang Ramah">
+                        <label class="form-check-label" for="sikap-konsultan-1">
+                            Kurang Ramah
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sikap-konsultan" id="sikap-konsultan-2" value="Cukup Ramah">
+                        <label class="form-check-label" for="sikap-konsultan-2">
+                            Cukup Ramah
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sikap-konsultan" id="sikap-konsultan-3" value="Ramah">
+                        <label class="form-check-label" for="sikap-konsultan-3">
+                            Ramah
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sikap-konsultan" id="sikap-konsultan-4" value="Sangat Ramah">
+                        <label class="form-check-label" for="sikap-konsultan-4">
+                            Sangat Ramah
+                        </label>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label text-start text-black ">Biaya Layanan</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="biaya-layanan" id="biaya-layanan-1" value="Kurang Terjangkau">
+                        <label class="form-check-label" for="biaya-layanan-1">
+                            Kurang Terjangkau
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="biaya-layanan" id="biaya-layanan-2" value="Cukup Terjangkau">
+                        <label class="form-check-label" for="biaya-layanan-2">
+                            Cukup Terjangkau
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="biaya-layanan" id="biaya-layanan-3" value="Terjangkau">
+                        <label class="form-check-label" for="biaya-layanan-3">
+                            Terjangkau
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="biaya-layanan" id="biaya-layanan-4" value="Sangat Terjangkau">
+                        <label class="form-check-label" for="biaya-layanan-4">
+                            Sangat Terjangkau
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="button-daftar ">
+                    <button class="btn">Kirim</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <h1 class="footer-penjelasan">
+              Butuh Konsultasi...?
+              <br>
+              Silahkan Kontak kami
+              <br>
+              Kami Siap Membantu
+            </h1>
+            <p class="kontak">Kontak</p>
+            <div class="row">
+              <div class="col-1">
+                <img src="assets/img/icon-alamat.png" class=" kontak-icon" alt="Dfunstation">
+              </div>
+              <div class="col-10 kontak-detail ">
+                Ruko Istana Pasteur Regency CRA 51
+                <br>
+                Gunung Batu - Kota Bandung
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1">
+                <img src="assets/img/icon-telepon.png" class=" kontak-icon" alt="Dfunstation">
+              </div>
+              <div class="col-10 kontak-detail ">
+                +62 859 5600 0087
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1">
+                <img src="assets/img/icon-email.png" class=" kontak-icon" alt="Dfunstation">
+              </div>
+              <div class="col-10 kontak-detail ">
+                d.funstation@gmail.com
+              </div>
+            </div>
+            <p class="sosial-media">Sosial Media</p>
+            <div class="d-flek sosial-media-link">
+              <a href="#" >
+                <img src="assets/img/icon-instagram.png" class=" kontak-icon" alt="Dfunstation">
+              </a>
+              <a href="#">
+                <img src="assets/img/icon-tiktok.png" class=" kontak-icon" alt="Dfunstation">
+              </a>
+              <a href="#">
+                <img src="assets/img/icon-facebook.png" class=" kontak-icon" alt="Dfunstation">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 card-footer-menu">
+            <a class="footer-menu" href="">Artikel / Blog</a>
+            <a class="footer-menu" href="">Event</a>
+            <a class="footer-menu" href="">Tiket</a>
+            <a class="footer-menu" href="">Galeri Foto</a>
+            <a class="footer-menu" href="">Self Assesment</a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 card-footer-menu">
+            <a class="footer-menu" href="">F.A.Q</a>
+            <a class="footer-menu" href="">Syarat dan Ketentuan</a>
+            <a class="footer-menu" href="">Kebijakan Privasi</a>
+            <a class="footer-menu" href="">Menjadi Mitra</a>
+            <a class="footer-menu" href="">Promo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+
+  <!-- <script src="bootsrap/js/bootstrap.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+   <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header" style="border-bottom: none;">
+        <button type="button" class="btn-close z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h1 class="modal-title fs-5 text-center" id="staticBackdropLabel">Yu, Masuk Ke Akunmu Dulu!</h1>
+        <form action="">
+          <div class="mb-3 mt-4">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Masukan Email">
+          </div>
+          <div class="mb-4">
+            <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+            <div class="input-group-icon mb-2">
+              <i class="password-icon fas fa-eye-slash"></i>
+            </div>
+            <a href="lupapassword.html" for="password" class="form-label text-decoration-none text-black fw-bold ">Lupa Password?</a>
+          </div>
+          <div class="button-submit text-center">
+            <button type="submit" class="btn btn-success mb-2">Masuk Sekarang</button>
+            <br>
+            <span class="text-black">Kamu belum terdaftar? <a href="daftar-akun.html" class="text-black fw-bold text-decoration-none">Daftar Disini</a></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>
